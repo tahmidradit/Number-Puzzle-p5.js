@@ -8,14 +8,14 @@ setup = () => {
     secondLine();
     thirdLine();
 
-    one();
-    two();
-    three();
-    four();
-    five();
-    six();
-    seven();
-    eight();  
+    textOne();
+    textTwo();
+    textThree();
+    textFour();
+    textFive();
+    textSix();
+    textSeven();
+    textEight();  
      
  }
  
@@ -42,42 +42,42 @@ heading = () => {
     text('Number Puzzle', 10, 70);
 }
 
-one = () => {
+textOne = () => {
     textSize(30);
     text('1', 49, 170);
 }
 
-two = () => {
+textTwo = () => {
     textSize(30);
     text('2', 100, 170);
 }
 
-three = () => {
+textThree = () => {
     textSize(30);
     text('3', 157, 170);
 }
 
-four = () => {
+textFour = () => {
     textSize(30);
     text('4', 50, 223);
 }
 
-five = () => {
+textFive = () => {
     textSize(30);
     text('5', 102, 223);
 }
 
-six = () => {
+textSix = () => {
     textSize(30);
     text('6', 159, 223);
 }
 
-seven = () => {
+textSeven = () => {
     textSize(30);
     text('7', 49, 275);
 }
 
-eight = () => {
+textEight = () => {
     textSize(30);
     text('8', 102, 275);
 }
